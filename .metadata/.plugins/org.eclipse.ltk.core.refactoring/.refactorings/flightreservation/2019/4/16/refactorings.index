@@ -1,0 +1,20 @@
+1555209921953	Extract local variable 'filePath'
+1555216581731	Extract constant 'D_PROJECT_RESERVATIONS_RESERVATION'
+1555216652713	Extract constant 'ITINERARY_FOR_YOUR_FLIGHTS'
+1555216678565	Extract constant 'PLEASE_FIND_YOUR_ATTACHED_ITINERARY'
+1555268740541	Encapsulate field 'name'
+1555268804975	Encapsulate field 'roles'
+1555269320936	Encapsulate field 'users'
+1555283168107	Delete elements
+1555283173632	Delete element
+1555283180050	Rename resource 'main.css'
+1555285129072	Move 'css' to 'resources'
+1555285207413	Move 'css' to 'static'
+1555285427769	Move 'img' to 'static'
+1555286070747	Move 'img' to 'resources'
+1555286187582	Move 'img' to 'static'
+1555296718612	Delete element
+1555296830015	Delete element
+1555379677116	Copy file
+1555379683932	Rename resource 'login.jsp'
+1555389270543	Copy folders

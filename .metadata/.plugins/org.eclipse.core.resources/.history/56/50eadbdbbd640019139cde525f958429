@@ -1,0 +1,30 @@
+<%-- <form action='/charge' method='POST' id='checkout-form'>
+    <input type='hidden' th:value='${amount}' name='amount' />
+    <label>Price:<span th:text='${amount/100}' /></label>
+    <!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
+    <script
+       src='https://checkout.stripe.com/checkout.js'
+       class='stripe-button'
+       th:attr='data-key=${stripePublicKey}, 
+         data-amount=${amount}, 
+         data-currency=${currency}'
+       data-name='Shivesh'
+       data-description='Flight Reservation Checkout'
+       data-image
+         ='http://www.baeldung.com/wp-content/themes/baeldung/favicon/android-chrome-192x192.png'
+       data-locale='auto'
+       data-zip-code='false'>
+   </script>
+</form> --%>
+
+<form action="/flightreservation/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_Uto8BJ5V6Gzxrfmwpk5H1z0R00TMNstXjn"
+    data-amount="999"
+    data-name="Shivesh Kumar"
+    data-description="Widget"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto">
+  </script>
+</form>

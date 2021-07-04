@@ -1,0 +1,254 @@
+body {
+     background-color: #292b2c;
+     font-family: 'Abril Fatface', cursive;
+     letter-spacing: 3px;
+} 
+
+.navbar-light .navbar-brand{
+	color:#fff;
+	font-weight: 500;
+	font-size: 22px;
+  	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+     font-size: 22px;
+  	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+   
+}
+.navbar .navbar-brand:hover {
+	color:white; 
+}
+
+.main{
+	
+	background: url("../img/background.jpg")no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	padding-bottom:5px;
+  	font-family: Ubuntu;
+}
+.main h1{
+	color:floralwhite;	
+	padding: 10px 0px 10px 0px;
+  	
+}
+.mainsub{
+	font-family: Ubuntu;
+	color: #fff;
+}
+.hero{
+	margin-top: 20%;
+    padding-bottom: 15%;
+}
+.title{
+	background-color: blue;
+    opacity: 0.4;
+}
+
+/* login page */
+
+.form-control {
+		background: #f2f2f2;
+        font-size: 16px;
+		border-color: transparent;
+		box-shadow: none !important;
+	}
+	.form-control:focus {
+		border-color: #91d5a8;
+        background: #e9f5ee;
+	}
+    .form-control, .btn {        
+        border-radius: 2px;
+    }
+	.login-form {
+		width: 380px;
+		margin: 0 auto;
+		font-family: Ubuntu;
+	}
+    .login-form h2 {
+        margin: 0;
+        padding: 30px 0;
+        font-size: 34px;
+    }
+	.login-form .avatar {
+		margin: 0 auto 30px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		z-index: 9;
+		background: #4aba70;
+		padding: 15px;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	.login-form .avatar img {
+		width: 100%;
+	}
+    .login-form form {
+		color: #7a7a7a;
+		border-radius: 4px;
+    	margin-bottom: 20px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;		
+    }
+    .login-form .btn {
+		font-size: 16px;
+		line-height: 26px;
+		min-width: 120px;
+        font-weight: bold;
+		background: #4aba70;
+		border: none;		
+    }
+	.login-form .btn:hover, .login-form .btn:focus{
+		background: #40aa65;
+        outline: none !important;
+	}
+	.checkbox-inline {
+		margin-top: 14px;
+	}
+	.checkbox-inline input {
+		margin-top: 3px;
+	}
+    
+	.login-form a:hover {
+		text-decoration: none;
+	}
+	.hint-text {
+		color: #40aa65;
+        text-align: center;
+		padding-bottom: 26px;
+	}
+	
+	.jumbotron{
+		width: 50%;
+		margin-left:25%;
+		background-color: #3B3B98;
+		margin-bottom:10%;
+	}
+	.form-control {
+     background: #fff;
+	}
+	.main h2{
+		color:floralwhite;	
+		padding: 10px 0px 10px 0px;
+	}
+	
+	.table {
+	    margin-left: 10%;
+	    width: 80%; 
+	    margin-bottom: 3rem;
+	}
+	
+	.helper{
+	font-family: 'Merriweather', serif;
+	padding: 10px;
+    background: aliceblue;
+	}
+	.btn-info{
+	background: #001b94;
+	border:#001b94;
+	font-family: Ubuntu;
+	}
+	.box{
+	border: solid 1px #f7f1e3;
+    border-radius: 6px;
+    opacity: 0.7;
+    padding: 10px 0px;
+    background: #f7f1e3;
+    font-family: Ubuntu;
+	}
+	.add-flight{
+	font-family: Ubuntu;
+	}
+	tbody{
+	font-family: Ubuntu;
+	}
+	tbody>tr{
+	background-color: #2c2c54;
+	color:#fff;
+	}
+	table+p{
+	background-color: #2c2c54;
+	}
+	p+a{
+	color:#fff;
+	}
+	a:hover{
+	text-decoration: none;
+	}
+	legend{
+	width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+	}
+	.f-detail{
+	    background: black;
+    color: white;
+    padding: 10px;
+    font-family: Ubuntu;
+	}
+	h3>span{
+	color:#fff;
+	}
+	.comp{
+	padding-top: 20px;
+	}
+	
+	//AUTOCOMPLETE STYLES
+
+.ui-autocomplete { position: absolute; cursor: default; background:#fff }   
+
+/* workarounds */
+html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+.ui-menu {
+    list-style:none;
+    padding: 2px;
+    margin: 0;
+    display:block;
+    float: left;
+    background: #fff;
+    cursor:pointer;
+    font-family:Ubuntu;
+}
+.ui-menu-divider{
+	color:#000;
+}
+.ui-menu .ui-menu {
+    margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+    margin:0;
+    padding: 0;
+    zoom: 1;
+    float: left;
+    clear: left;
+    width: 100%;
+    border-bottom:1px solid #ccc;
+    font-family:Ubuntu;
+}
+.ui-menu .ui-menu-item a {
+    text-decoration:none;
+    display:block;
+    padding:.2em .4em;
+    line-height:1.5;
+    zoom:1;
+    font-family:Ubuntu;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+    margin: -1px;
+    font-family:Ubuntu;
+}
+	
